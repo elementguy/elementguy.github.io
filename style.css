@@ -1,4 +1,54 @@
-.introImage {
-width: 120px;
-height 70px;
+body {
+font-family: "Verdana";
+background-color: #b3e0ff;
+}
+
+header {
+background-color: #ff8000;
+border-bottom: 1px solid #000000;
+position: fixed;
+width: 100%;
+height: 30px;
+font-family: "Helvetica";
+}
+
+.maroon {
+color: #602020;
+}
+
+.introduction {
+margin: 25px 50px;
+text-align: center;
+font-family: "Arial";
+}
+
+.welcome {
+position: relative;
+text-align: center;
+top: 30px;
+}
+
+.image {
+width: 50%;
+height 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.linkImage {
+display: inline-block;
+margin: 20px;
+}
+
+.caption {
+text-align: center;
+color: #001a00;
+}
+.rotate90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
